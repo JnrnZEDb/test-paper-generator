@@ -2,13 +2,17 @@
   "name": "test-paper-generator",
   "version": "1.0.0",
   "description": "Manage test questions and answers and create test and solution sheets",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "electron": "^4.0.2"
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
   }
 }
